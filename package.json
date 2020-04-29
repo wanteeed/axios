@@ -1,5 +1,5 @@
 {
-  "name": "axios",
+  "name": "@wanteeed/axios",
   "version": "0.19.2",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
@@ -16,7 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axios/axios.git"
+    "url": "https://github.com/wanteeed/axios.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wanteeed"
   },
   "keywords": [
     "xhr",
